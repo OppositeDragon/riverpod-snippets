@@ -79,7 +79,7 @@
     "description": "Creates an autodispose Notifier/NotifierProvider",
     "body": [
       "@riverpod",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\t$2 build() {$3",
       "\t\treturn $4;",
@@ -92,7 +92,7 @@
     "description": "Creates a non-autodispose Notifier/NotifierProvider",
     "body": [
       "@Riverpod(keepAlive: true)",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\t$2 build() {$3",
       "\t\treturn $4;",
@@ -105,7 +105,7 @@
     "description": "Creates an autodispose AsyncNotifier/AsyncNotifierProvider",
     "body": [
       "@riverpod",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\tFutureOr<$2> build() {$3",
       "\t\treturn $4;",
@@ -118,7 +118,7 @@
     "description": "Creates a non-autodispose AsyncNotifier/AsyncNotifierProvider",
     "body": [
       "@Riverpod(keepAlive: true)",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\tFutureOr<$2> build() {$3",
       "\t\treturn $4;",
@@ -131,7 +131,7 @@
     "description": "Creates an autodispose StreamNotifier/StreamNotifierProvider",
     "body": [
       "@riverpod",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\tStream<$2> build() {$3",
       "\t\t$4;",
@@ -144,7 +144,7 @@
     "description": "Creates a non-autodispose StreamNotifier/StreamNotifierProvider",
     "body": [
       "@Riverpod(keepAlive: true)",
-      "class $1 extends _$$1 {",
+      "class $1 extends _\\$$1 {",
       "\t@override",
       "\tStream<$2> build() {$3",
       "\t\t$4;",
